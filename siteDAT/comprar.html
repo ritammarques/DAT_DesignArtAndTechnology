@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de compra</title>
+    <link rel="icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="footer.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="menuHamburguer desaparecer">
+        <ul class="menu">
+            <li> <a href="Sobre.html"> Sobre</a></li>
+            <li><a href="Oradores.html"> Oradores</a></li>
+            <li><a href="Calendario.html"> CALENDÁRIO</a></li>
+
+        </ul>
+    </div>
+    <div class="bottomrigth"></div>
+    <div class=" bottom"></div>
+    <div class="bottom1">
+    </div>
+    <div class="bottom2"></div>
+    <div class="top">
+        <ul class="menu">
+            <li><abbr class="menu" title="Sobre"> <a href="Sobre.html"><svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.25 0.1"><defs><style>.cls-1{fill:#fff;}</style></defs><title>bola menu</title><circle class="cls-1" cx="0.05" cy="0.05" r="0.05"/></svg></a></abbr></li>
+            <li><abbr title="Oradores"><a href="Oradores.html"><svg id="Camada_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.25 0.1"><defs><style>.cls-1{fill:#fff;}</style></defs><title>quadrado menu</title><rect class="cls-1" x="0" y="0" width="0.1" height="0.1"  transform="translate(0)"/></svg></a></abbr></li>
+            <li><abbr title="Calendário"><a href="Calendario.html"><svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0.25 0.1"><defs><style>.cls-1{fill:#fff;}</style></defs><title>triangulo menu</title><polygon class="cls-1" points="0 0 0 0.1 0.1 0 0 0" /></svg></a></abbr></li>
+            <a href="Loja.html"><li>Loja</li></a>
+        </ul>
+
+    </div>
+
+    <div class="top1">
+
+    </div>
+    <div class="top2">
+        <a href="index.html">
+            <img src="imagens/casa.svg" width="30">
+        </a>
+    </div>
+</header>
+
+<main>
+    <div class=" principal" id="scrool">
+
+        <form action="comprar.php" method="POST" enctype="multipart/form-data">
+<Legend> Preencha este formulário para fazer a sua compra:</Legend>
+            <div>
+<label class="nome"> Nome:</label>
+            <input type="text" id="name" name="name" placeholder="inserir nome" required/>
+            </div>
+
+            <div>
+                <label class="ref" > Referência:</label>
+                <input type="number" id="ref" name="ref" placeholder=" ex.:1" required/>
+            </div>
+
+            <div>
+                <label class="e-mail"> E-mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="exemplo@mail.pt" required/>
+            </div>
+            <div>
+
+                <input type="submit" id="button" name="button" value="Comprar" required/>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer >
+
+    <div class="bottomrigth"></div>
+    <div class="bottomleft"> </div>
+    <div class="footer">
+
+        <ul class="colF1">DARQ
+            Departamento de Arquitectura<br> - Universidade de Coimbra
+            R. Colégio Novo,<br>
+            3000-143 Coimbra
+        </ul>
+        <ul class="colF2">DEI
+            Departamento de Engenharia Informática <br>
+            - Universidade de Coimbra
+            Pólo II - Pinhal de Marrocos,<br> 3030-290 Coimbra
+        </ul>
+        <ul class="colF3">DEI
+            Laboratorio Chimico, Museu da Ciência<br>
+            3000-272 Coimbra<br>
+            museudaciencia.org<br>
+            T 239 854 350<br>
+        </ul>
+    </div>
+
+    <script src="footer.js"></script>
+    <script src="menu.js"></script>
+</footer>
+</body>
+</html>
